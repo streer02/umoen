@@ -1,14 +1,28 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>MUMOEN - Home</title>
+	<title>UMOEN - Home</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="jquery.quovolver.js"></script>
+	<script>
+		$(document).ready(function() {
+		  $('.tester').quovolver({
+		    autoPlaySpeed : 5000,
+		    autoPlay : true
+		  });
+		});
+	</script>
+
 </head>
 <body>
 	<div class="background">
 		<div class="page">
-			<img src="images/logo2.png" alt="">
-			<a href="index.html" id="logo">Upper Midwest Oncology Education Network</a>
+			<div>
+			<a href="index.html" id="logo">
+				<img src="images/logo2.png" alt="">
+			</a>
+		</div>
 			<div class="sidebar">
 				<ul>
 					<li class="selected">
@@ -19,7 +33,7 @@
 					</li>
 
 					<li>
-						<a href="about.html">OurFounders</a>
+						<a href="about.html">Our Founders</a>
 					</li>
 					<li>
 						<a href="referencelibrary.html">Reference</a>
@@ -28,27 +42,23 @@
 				<br>
 				<br>
 				<br>
-				<div class="first">
-					<div>
-						<h3>Sponser #1</h3>
-						<img src="images/man.jpg" alt="">
-						<p>
-							Recommended by many doctors.
-						</p>
-					</div>
-				</div>
 				<div>
-					<div>
-						<h3>Sponser #2</h3>
-						<p>
-							Also recommended by many doctors (and nurses).
-						</p>
-						<img src="images/doctors-and-nurse.jpg" alt="">
-						<p>
-							And some text after the picture.
-						</p>
-					</div>
+				<div class="tester">
+						<blockquote><p>  “Quality education and networking for all oncology professionals”</p></blockquote>
+
+						<blockquote> <p>“A community of oncology practitioners from varying practices working together to enhance the knowledge of providers in the Upper Midwest”  </p></blockquote>
+
+						<blockquote> <p> “A start-up organization that wants to build multidisciplinary oncology education both locally and regionally”</p></blockquote>
+
+						<blockquote>  <p>“Provides an opportunity for multidisciplinary discussion around current topics and insights into trends within the region.”</p></blockquote>
+
+						<blockquote> <p> “Focuses on multidisciplinary oncology education.”</p></blockquote>
+
+						<blockquote>  <p>“Provides local and regional education and networking opportunities for all HCPs.”</p></blockquote>
+
+						<blockquote> <p>  “One of the first organizations in the Twin Cities to attempt to integrate pharmacists and nurses in educational opportunities.”</p></blockquote>
 				</div>
+			</div>
 			</div>
 			<div class="body">
 				<div class="home">
@@ -66,7 +76,7 @@
 								<h4>Upcoming Conferences</h4>
 								<h3>November 2nd - Southview Country Club</h3>
 								<p>
-								We are excited to announce our first conference.  Please register in advance through this handy link.
+								We are excited to announce our first conference.  For more information, click below.
 								<a href="conferences.html"><img src="images/programs.jpg" alt=""></a>
 								</p><span><a href="conferences.html">Learn More</a></span>
 							</div>
@@ -156,8 +166,7 @@
 						</ul>
 					</div>
 					<div class="connect">
-						<h4>Keep In Touch</h4>
-						<a href="http://freewebsitetemplates.com/go/twitter/" id="twitter">twitter</a> <a href="http://freewebsitetemplates.com/go/facebook/" id="facebook">facebook</a> <a href="http://freewebsitetemplates.com/go/googleplus/" id="googleplus">google+</a>
+						<h4>Keep In Touch</h4><a href="https://www.facebook.com/UMOEN" id="facebook">facebook</a> 
 					</div>
 				</div>
 			</div>
