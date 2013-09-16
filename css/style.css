@@ -600,6 +600,7 @@ a#logo {
 	padding:15px 20px 25px;
 }
 .body .programs div div div:first-child h4 {
+	border-bottom: 1px dashed;
 	color:#334559;
 	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 	font-size:16px;
