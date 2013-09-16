@@ -1,5 +1,3 @@
-/* Website template by freewebsitetemplates.com */
-/*------------------------- Layout styles ------------------------*/
 body {
 	margin:0;
 	font-family:Arial, Helvetica, sans-serif;
@@ -17,7 +15,7 @@ a img:hover {
 	opacity:0.8;
 }
 .background {
-	background:url(../images/bg-background.jpg) no-repeat center top;
+	background:url(../images/bg-backgroundblue.jpg) no-repeat center top;
 }
 p a:hover {
 	color:#388070!important;
@@ -55,12 +53,14 @@ a#logo {
 	width:100px;
 }
 .sidebar ul li a {
-	background:url(../images/bg-nav.png) repeat-x;
+	background: #FFFFFF;
+	color:#000000;
+	//background:url(../images/bg-navpurple.png) repeat-x;
 	border-color:#126663;
 	border-radius:5px;
 	border-style:none solid;
 	border-width:1px;
-	color:#fff;
+	//color:#fff;
 	display:block;
 	font-size:12px;
 	height:36px;
@@ -68,14 +68,16 @@ a#logo {
 	text-align:center;
 	text-decoration:none;
 	text-transform:uppercase;
-	width:100px;
+	width:110px;
 }
 .sidebar ul li.selected a {
-	background:url(../images/bg-nav-selected.png) repeat-x;
-	color:#fbf8d5;
+      background: #999999;
+	color:#000000;
+	//background:url(../images/bg-nav-selectedpurple.png) repeat-x;
+	//color:#fbf8d5;
 }
 .sidebar ul li a:hover {
-	color:#fbf8d5;
+	text-decoration:underline;
 }
 .sidebar div.first {
 	margin-bottom:11px;
@@ -422,6 +424,7 @@ a#logo {
 }
 .body .about div div.section {
 	min-height:360px;
+	overflow:auto;
 }
 .body .about div div.section img {
 	display:block;
@@ -1270,22 +1273,6 @@ a#logo {
  |	are labeled with this *required*
 */
 
-body { font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px;  }
-a { text-decoration: none; color: #52b7d4; }
-a:hover { color: #ea9941; }
-#header, #footer { padding: 20px 0; }
-#wrapper { width: 475px; margin: 0 auto; }
-#description { margin-bottom: 40px; padding-bottom: 10px; }
-h1, h2 { font-weight: normal; }
-h1 { font-family: Georgia, Times, serif; font-size: 42px; color: #1f1f1f; margin-left: -60px; }
-h2 { font-size: 12px; }
-#description p { margin-bottom: 10px; }
-#footer { font-size: 11px; line-height: 16px; }
-#footer a { color: #373737; border-bottom: 1px solid #f2f2f2; }
-#footer a:hover { color: #ea9941; border-color: #ea9941; }
-code { font-family: "Courier New", Courier, Monaco, monospace; background: #f2f2f2; margin-bottom: 20px; display: block; padding: 20px; }	
-blockquote p { margin-bottom: 10px; font-style: italic; }
-blockquote cite { font-style: normal; display: block; text-align: right; text-transform: uppercase; font-size: 10px; font-weight: bold; letter-spacing: 1px; font-family: Arial, Helvetica, sans-serif; }
 
 /*
  |	Setting the width for the blockquotes is required
@@ -1296,6 +1283,11 @@ blockquote {
 	font-family: Georgia, Times, serif;
 	width: 175px; /* required */
 	margin: 0 auto;
+	}
+
+blockquote p {
+	margin-bottom: 10px;
+	font-style: italic;
 	}
 	
 /*

@@ -33,6 +33,12 @@
 					<li>
 						<a href="about.html">Our Founders</a>
 					</li>
+<<<<<<< HEAD
+=======
+					<li>
+						<a href="referenceLibrary.html">Reference</a>
+					</li>
+>>>>>>> 269e2c96a181a55e43efe6dea96cc3eb50e3e976
 				</ul>
 				<br>
 				<br>
@@ -59,29 +65,16 @@
 						<div>
 							<div>
 								<h4>UMOEN Conference 2013</h4>
-								<p style="float: left; width :200px;">
+								<p>
 									Saturday, November 2nd<br> 
 									Southview Country Club<br> 
 									239 Mendota Road East<br> 
 									West St. Paul, MN 55118
 								</p>
-								<p>
-									The purpose of this annual meeting is to provide contemporary hematology/oncology education to nurses, advance practice nurses, pharmacists, physician assistants and other healthcare providers.<br>
-
-  
-  									Following the meeting, participants will be better able to:
-  									<br>
-									·          Discuss current treatment strategies for patients with lung cancer or palliative care needs.
-									<br>
-									·          Evaluate the use of new medications and medical marijuana in the hematology and oncology practice.
-									<br>
-									·          Identify controversies in care with the use of granulocyte colony-stimulating factors (G-CSF) in patients with cancer.
-								</p>
 								
 							</div>
 							<div id="downloadLink">
-									<a href="Agenda2013.doc">Download Conference Agenda</a><br>
-									<a href="UMOENBrochure2013.PDF">Download Conference Brochure</a>
+									<a href="Agenda2013.doc">Download Conference Agenda</a>
 								</div>
 							<div class="featured">
 								<img src="images/sharing.jpg" alt="">
@@ -99,7 +92,7 @@
 					<div>
 						<h4>UMOEN</h4>
 						<p>
-						This is a website for UMOEN, an organization established in 2013 for the advancement of oncology; its practitioners and recipients of care.</p>
+						This is a website for UMOEN, a non-profit organization established in 2013 for the advancement of oncology; its practitioners and recipients of care.</p>
 						<br>
 						<p>
 						&#169; Copyright 2013. All rights reserved.
